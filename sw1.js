@@ -122,7 +122,7 @@ self.addEventListener("fetch", (event)=>{
              }
              if(event.request.url.includes(".jpg")||event.request.url.includes(".png")){
                 console.log("Imagen no encontrada: "+event.request.url);
-                return caches.match("/img/sin_conexion.png");
+                return caches.match("/PWA-EEG-U2-P5/img/sin_conexion.png");
              }
          });
      })
