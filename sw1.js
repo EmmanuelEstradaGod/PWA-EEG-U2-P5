@@ -28,12 +28,12 @@ self.addEventListener("install",(event) =>{
     .then(cache =>{
         return cache.addAll([
             "/PWA-EEG-U2-P5",
-            "index.html",
-            "css/page.css",
-            "img/inicio.png",
-            "js/app.js",
-            "pages/view-offline.html",
-            "img/sin_conexion.png"
+            "/PWA-EEG-U2-P5/index.html",
+            "/PWA-EEG-U2-P5/css/page.css",
+            "/PWA-EEG-U2-P5/img/inicio.png",
+            "/PWA-EEG-U2-P5/js/app.js",
+            "/PWA-EEG-U2-P5/pages/view-offline.html",
+            "/PWA-EEG-U2-P5/img/sin_conexion.png"
         ]);
     });
 
